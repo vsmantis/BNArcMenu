@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBEBA37C173AEA98009F5AC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEBA37B173AEA98009F5AC9 /* UIKit.framework */; };
+		EBEBA37E173AEA98009F5AC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEBA37D173AEA98009F5AC9 /* Foundation.framework */; };
+		EBEBA380173AEA98009F5AC9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEBA37F173AEA98009F5AC9 /* CoreGraphics.framework */; };
+		EBEBA386173AEA98009F5AC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBEBA384173AEA98009F5AC9 /* InfoPlist.strings */; };
+		EBEBA388173AEA98009F5AC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEBA387173AEA98009F5AC9 /* main.m */; };
+		EBEBA38C173AEA98009F5AC9 /* BNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEBA38B173AEA98009F5AC9 /* BNAppDelegate.m */; };
+		EBEBA38E173AEA98009F5AC9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEBA38D173AEA98009F5AC9 /* Default.png */; };
+		EBEBA390173AEA98009F5AC9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEBA38F173AEA98009F5AC9 /* Default@2x.png */; };
+		EBEBA392173AEA98009F5AC9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEBA391173AEA98009F5AC9 /* Default-568h@2x.png */; };
+		EBEBA39B173AEBEE009F5AC9 /* BNArcMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEBA39A173AEBEE009F5AC9 /* BNArcMenu.m */; };
+		EBEBA39F173AECE1009F5AC9 /* BNDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEBA39D173AECE1009F5AC9 /* BNDemoViewController.m */; };
+		EBEBA3A0173AECE1009F5AC9 /* BNDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBEBA39E173AECE1009F5AC9 /* BNDemoViewController.xib */; };
+		EBEBA3A5173AEFDE009F5AC9 /* menu-button.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEBA3A2173AEFDE009F5AC9 /* menu-button.png */; };
+		EBEBA3A7173AEFDE009F5AC9 /* menu-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEBA3A4173AEFDE009F5AC9 /* menu-button@2x.png */; };
+		EBEBA3A9173AF2BB009F5AC9 /* menu-item@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEBA3A8173AF2BB009F5AC9 /* menu-item@2x.png */; };
+		EBEBA3AB173AF2E6009F5AC9 /* menu-item.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEBA3AA173AF2E6009F5AC9 /* menu-item.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EBEBA378173AEA98009F5AC9 /* BNArcMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BNArcMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBEBA37B173AEA98009F5AC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EBEBA37D173AEA98009F5AC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EBEBA37F173AEA98009F5AC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EBEBA383173AEA98009F5AC9 /* BNArcMenuDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BNArcMenuDemo-Info.plist"; sourceTree = "<group>"; };
+		EBEBA385173AEA98009F5AC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBEBA387173AEA98009F5AC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBEBA389173AEA98009F5AC9 /* BNArcMenuDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BNArcMenuDemo-Prefix.pch"; sourceTree = "<group>"; };
+		EBEBA38A173AEA98009F5AC9 /* BNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNAppDelegate.h; sourceTree = "<group>"; };
+		EBEBA38B173AEA98009F5AC9 /* BNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNAppDelegate.m; sourceTree = "<group>"; };
+		EBEBA38D173AEA98009F5AC9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EBEBA38F173AEA98009F5AC9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EBEBA391173AEA98009F5AC9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EBEBA399173AEBEE009F5AC9 /* BNArcMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNArcMenu.h; sourceTree = "<group>"; };
+		EBEBA39A173AEBEE009F5AC9 /* BNArcMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNArcMenu.m; sourceTree = "<group>"; };
+		EBEBA39C173AECE1009F5AC9 /* BNDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNDemoViewController.h; sourceTree = "<group>"; };
+		EBEBA39D173AECE1009F5AC9 /* BNDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNDemoViewController.m; sourceTree = "<group>"; };
+		EBEBA39E173AECE1009F5AC9 /* BNDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNDemoViewController.xib; sourceTree = "<group>"; };
+		EBEBA3A2173AEFDE009F5AC9 /* menu-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button.png"; sourceTree = "<group>"; };
+		EBEBA3A4173AEFDE009F5AC9 /* menu-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button@2x.png"; sourceTree = "<group>"; };
+		EBEBA3A8173AF2BB009F5AC9 /* menu-item@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-item@2x.png"; sourceTree = "<group>"; };
+		EBEBA3AA173AF2E6009F5AC9 /* menu-item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-item.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBEBA375173AEA98009F5AC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEBA37C173AEA98009F5AC9 /* UIKit.framework in Frameworks */,
+				EBEBA37E173AEA98009F5AC9 /* Foundation.framework in Frameworks */,
+				EBEBA380173AEA98009F5AC9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBEBA36F173AEA98009F5AC9 = {
+			isa = PBXGroup;
+			children = (
+				EBEBA398173AEADF009F5AC9 /* BNArcMenu */,
+				EBEBA381173AEA98009F5AC9 /* BNArcMenuDemo */,
+				EBEBA37A173AEA98009F5AC9 /* Frameworks */,
+				EBEBA379173AEA98009F5AC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBEBA379173AEA98009F5AC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBEBA378173AEA98009F5AC9 /* BNArcMenuDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBEBA37A173AEA98009F5AC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBEBA37B173AEA98009F5AC9 /* UIKit.framework */,
+				EBEBA37D173AEA98009F5AC9 /* Foundation.framework */,
+				EBEBA37F173AEA98009F5AC9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBEBA381173AEA98009F5AC9 /* BNArcMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EBEBA3A1173AEFDE009F5AC9 /* Resources */,
+				EBEBA38A173AEA98009F5AC9 /* BNAppDelegate.h */,
+				EBEBA38B173AEA98009F5AC9 /* BNAppDelegate.m */,
+				EBEBA382173AEA98009F5AC9 /* Supporting Files */,
+				EBEBA39C173AECE1009F5AC9 /* BNDemoViewController.h */,
+				EBEBA39D173AECE1009F5AC9 /* BNDemoViewController.m */,
+				EBEBA39E173AECE1009F5AC9 /* BNDemoViewController.xib */,
+			);
+			path = BNArcMenuDemo;
+			sourceTree = "<group>";
+		};
+		EBEBA382173AEA98009F5AC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBEBA383173AEA98009F5AC9 /* BNArcMenuDemo-Info.plist */,
+				EBEBA384173AEA98009F5AC9 /* InfoPlist.strings */,
+				EBEBA387173AEA98009F5AC9 /* main.m */,
+				EBEBA389173AEA98009F5AC9 /* BNArcMenuDemo-Prefix.pch */,
+				EBEBA38D173AEA98009F5AC9 /* Default.png */,
+				EBEBA38F173AEA98009F5AC9 /* Default@2x.png */,
+				EBEBA391173AEA98009F5AC9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBEBA398173AEADF009F5AC9 /* BNArcMenu */ = {
+			isa = PBXGroup;
+			children = (
+				EBEBA399173AEBEE009F5AC9 /* BNArcMenu.h */,
+				EBEBA39A173AEBEE009F5AC9 /* BNArcMenu.m */,
+			);
+			name = BNArcMenu;
+			path = ../BNArcMenu;
+			sourceTree = "<group>";
+		};
+		EBEBA3A1173AEFDE009F5AC9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EBEBA3AA173AF2E6009F5AC9 /* menu-item.png */,
+				EBEBA3A8173AF2BB009F5AC9 /* menu-item@2x.png */,
+				EBEBA3A2173AEFDE009F5AC9 /* menu-button.png */,
+				EBEBA3A4173AEFDE009F5AC9 /* menu-button@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBEBA377173AEA98009F5AC9 /* BNArcMenuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBEBA395173AEA98009F5AC9 /* Build configuration list for PBXNativeTarget "BNArcMenuDemo" */;
+			buildPhases = (
+				EBEBA374173AEA98009F5AC9 /* Sources */,
+				EBEBA375173AEA98009F5AC9 /* Frameworks */,
+				EBEBA376173AEA98009F5AC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BNArcMenuDemo;
+			productName = BNArcMenuDemo;
+			productReference = EBEBA378173AEA98009F5AC9 /* BNArcMenuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBEBA370173AEA98009F5AC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BN;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Aaron Ritchie";
+			};
+			buildConfigurationList = EBEBA373173AEA98009F5AC9 /* Build configuration list for PBXProject "BNArcMenuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EBEBA36F173AEA98009F5AC9;
+			productRefGroup = EBEBA379173AEA98009F5AC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBEBA377173AEA98009F5AC9 /* BNArcMenuDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBEBA376173AEA98009F5AC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEBA386173AEA98009F5AC9 /* InfoPlist.strings in Resources */,
+				EBEBA38E173AEA98009F5AC9 /* Default.png in Resources */,
+				EBEBA390173AEA98009F5AC9 /* Default@2x.png in Resources */,
+				EBEBA392173AEA98009F5AC9 /* Default-568h@2x.png in Resources */,
+				EBEBA3A0173AECE1009F5AC9 /* BNDemoViewController.xib in Resources */,
+				EBEBA3A5173AEFDE009F5AC9 /* menu-button.png in Resources */,
+				EBEBA3A7173AEFDE009F5AC9 /* menu-button@2x.png in Resources */,
+				EBEBA3A9173AF2BB009F5AC9 /* menu-item@2x.png in Resources */,
+				EBEBA3AB173AF2E6009F5AC9 /* menu-item.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBEBA374173AEA98009F5AC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEBA388173AEA98009F5AC9 /* main.m in Sources */,
+				EBEBA38C173AEA98009F5AC9 /* BNAppDelegate.m in Sources */,
+				EBEBA39B173AEBEE009F5AC9 /* BNArcMenu.m in Sources */,
+				EBEBA39F173AECE1009F5AC9 /* BNDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBEBA384173AEA98009F5AC9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBEBA385173AEA98009F5AC9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBEBA393173AEA98009F5AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EBEBA394173AEA98009F5AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBEBA396173AEA98009F5AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BNArcMenuDemo/BNArcMenuDemo-Prefix.pch";
+				INFOPLIST_FILE = "BNArcMenuDemo/BNArcMenuDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EBEBA397173AEA98009F5AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BNArcMenuDemo/BNArcMenuDemo-Prefix.pch";
+				INFOPLIST_FILE = "BNArcMenuDemo/BNArcMenuDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBEBA373173AEA98009F5AC9 /* Build configuration list for PBXProject "BNArcMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBEBA393173AEA98009F5AC9 /* Debug */,
+				EBEBA394173AEA98009F5AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBEBA395173AEA98009F5AC9 /* Build configuration list for PBXNativeTarget "BNArcMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBEBA396173AEA98009F5AC9 /* Debug */,
+				EBEBA397173AEA98009F5AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBEBA370173AEA98009F5AC9 /* Project object */;
+}
